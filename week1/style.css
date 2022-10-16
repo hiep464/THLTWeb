@@ -1,0 +1,59 @@
+.header{
+    width: 100%;  
+    padding: 6px;  
+    height: 48px;
+}
+
+.right{
+    float: right;
+    height: 100%; 
+    margin-right: 24px;
+}
+
+.gmail, .image{
+    text-decoration: none;
+    margin: auto 8px;
+    color: #000;
+    font-size: 14px;
+}
+
+.gmail:hover, .image:hover{
+    text-decoration: underline;
+}
+
+
+.apps{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    padding: 4px;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+
+.apps:hover{
+    background-color: rgba(60,64,67,.08);
+}
+
+.apps-icon{
+    display: flex;
+    color: #5f6368;
+    justify-content: center;
+    transform: translateY(8px);
+}
+
+.button{
+    padding: 9.8px 24.1px; 
+    background-color: #1a73e8; 
+    color: white;
+    border: none;
+    border-radius: 2.8px;
+    font-size: 14px;
+}
+
+button:hover{
+    background: #1b66c9;
+    box-shadow: 0 1px 3px 1px rgb(66 64 67 / 15%), 0 1px 2px 0 rgb(60 64 67 / 30%);
+    cursor: pointer;
+}
